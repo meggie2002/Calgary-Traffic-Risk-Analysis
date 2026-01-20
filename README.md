@@ -42,3 +42,11 @@ Using Calgary's Street Centreline data, we mapped collision density across the c
 │   ├── Project Report.pdf        # Detailed technical document
 │   └── Project_Presentation.pdf         # Summary slide deck
 └── README.md
+
+## Data Sources
+The analysis integrates multiple datasets from the **City of Calgary Open Data Portal**. Due to file size constraints, raw datasets are linked below:
+
+* [Traffic Incidents (2018-Present)](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556)
+* [Street Centreline (Road Network)](https://data.calgary.ca/Base-Maps/Street-Centreline/695p-8p6s)
+* [Traffic Counts (AAWT)](https://data.calgary.ca/Transportation-Transit/Traffic-Counts-at-Permanent-Stations/m9f3-8p5j)
+* **Weather Data:** Sourced via the [Open-Meteo Historical Weather API](https://open-meteo.com/).
