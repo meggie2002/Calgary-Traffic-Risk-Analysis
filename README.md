@@ -12,6 +12,21 @@ As Calgary grows, traffic safety becomes a critical urban challenge. This projec
 The project is divided into two core analytical tracks:
 * **Part A:** Predictive Modeling for Pedestrian Involvement.
 * **Part B:** Spatial Hotspot Identification & Risk Scoring.
+  
+---
+## Data Sources
+The analysis integrates multiple datasets from the **City of Calgary Open Data Portal**. Due to file size constraints, raw datasets are linked below:
+### City of Calgary Open Data
+* **[Traffic Incidents](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556/about_data)**: ~55,000 records (July 2022 – July 2025).
+* **[Street Centreline](https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5/about_data)**: Detailed road segment geometry and classifications.
+* **[Traffic Counts (AAWT)](https://data.calgary.ca/Transportation-Transit/Traffic-Counts-at-Permanent-stations/vuyp-sbjp/about_data)**: Volume data used for risk normalization.
+* **[Permanent Station Locations](https://data.calgary.ca/Transportation-Transit/Permanent-station-locations-for-Traffic-counts/sqwx-tjsy/about_data)**: Geographic details for traffic sensors.
+* **[Major Road Network](https://data.calgary.ca/Transportation-Transit/Major-Road-Network/tqjs-vnhy/about_data)**: Primary transportation corridors.
+
+### External APIs
+* **[Open-Meteo Historical API](https://open-meteo.com/en/docs)**: Sourced hourly weather parameters (snowfall, temperature, visibility) for Calgary.
+
+*All City of Calgary data is used under the [Open Data Terms of Use](https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa).*
 
 ---
 
@@ -43,16 +58,15 @@ Using Calgary's Street Centreline data, we mapped collision density across the c
 │   └── Project_Presentation.pdf         # Summary slide deck
 └── README.md
 ```
-## Data Sources
-The analysis integrates multiple datasets from the **City of Calgary Open Data Portal**. Due to file size constraints, raw datasets are linked below:
-### City of Calgary Open Data
-* **[Traffic Incidents](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556/about_data)**: ~55,000 records (July 2022 – July 2025).
-* **[Street Centreline](https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5/about_data)**: Detailed road segment geometry and classifications.
-* **[Traffic Counts (AAWT)](https://data.calgary.ca/Transportation-Transit/Traffic-Counts-at-Permanent-stations/vuyp-sbjp/about_data)**: Volume data used for risk normalization.
-* **[Permanent Station Locations](https://data.calgary.ca/Transportation-Transit/Permanent-station-locations-for-Traffic-counts/sqwx-tjsy/about_data)**: Geographic details for traffic sensors.
-* **[Major Road Network](https://data.calgary.ca/Transportation-Transit/Major-Road-Network/tqjs-vnhy/about_data)**: Primary transportation corridors.
 
-### External APIs
-* **[Open-Meteo Historical API](https://open-meteo.com/en/docs)**: Sourced hourly weather parameters (snowfall, temperature, visibility) for Calgary.
+---
 
-*All City of Calgary data is used under the [Open Data Terms of Use](https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa).*
+## Contributors & Team
+This project was a collaborative effort.
+
+* **Jincy Thomas** – [[LinkedIn Profile Link](https://www.linkedin.com/in/jincymarythomas/)]
+* **Joshua Quartey** – [[LinkedIn Profile Link](https://www.linkedin.com/in/joshua-quart/)]
+* **Megha Radhakrishnan** – [[LinkedIn Profile Link](https://www.linkedin.com/in/megha-rs/)]
+* **Deepika Gollamandala** – [[LinkedIn Profile Link](https://www.linkedin.com/in/deepika-gollamandala-248166270/)]
+
+---
