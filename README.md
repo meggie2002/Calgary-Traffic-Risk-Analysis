@@ -45,8 +45,14 @@ Using Calgary's Street Centreline data, we mapped collision density across the c
 ```
 ## Data Sources
 The analysis integrates multiple datasets from the **City of Calgary Open Data Portal**. Due to file size constraints, raw datasets are linked below:
+### City of Calgary Open Data
+* **[Traffic Incidents](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556)**: ~55,000 records (July 2022 – July 2025).
+* **[Street Centreline](https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5)**: Detailed road segment geometry and classifications.
+* **[Traffic Counts (AAWT)](https://data.calgary.ca/Transportation-Transit/Traffic-Counts-at-Permanent-stations/vuyp-sbjp)**: Volume data used for risk normalization.
+* **[Permanent Station Locations](https://data.calgary.ca/Transportation-Transit/Permanent-station-locations-for-Traffic-counts/sqwx-tjsy)**: Geographic details for traffic sensors.
+* **[Major Road Network](https://data.calgary.ca/Transportation-Transit/Major-Road-Network/tqjs-vnhy)**: Primary transportation corridors.
 
-* [Traffic Incidents (2018-Present)](https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556)
-* [Street Centreline (Road Network)](https://data.calgary.ca/Base-Maps/Street-Centreline/695p-8p6s)
-* [Traffic Counts (AAWT)](https://data.calgary.ca/Transportation-Transit/Traffic-Counts-at-Permanent-Stations/m9f3-8p5j)
-* **Weather Data:** Sourced via the [Open-Meteo Historical Weather API](https://open-meteo.com/).
+### External APIs
+* **[Open-Meteo Historical API](https://open-meteo.com/en/docs)**: Sourced hourly weather parameters (snowfall, temperature, visibility) for Calgary.
+
+*All City of Calgary data is used under the [Open Data Terms of Use](https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa).*
