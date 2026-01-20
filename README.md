@@ -64,9 +64,9 @@ Using Calgary's Street Centreline data, we mapped collision density across the c
 ## Contributors & Team
 This project was a collaborative effort.
 
-* **Jincy Thomas** – [[LinkedIn Profile Link](https://www.linkedin.com/in/jincymarythomas/)]
-* **Joshua Quartey** – [[LinkedIn Profile Link](https://www.linkedin.com/in/joshua-quart/)]
-* **Megha Radhakrishnan** – [[LinkedIn Profile Link](https://www.linkedin.com/in/megha-rs/)]
-* **Deepika Gollamandala** – [[LinkedIn Profile Link](https://www.linkedin.com/in/deepika-gollamandala-248166270/)]
+* **Jincy Thomas** – [[LinkedIn](https://www.linkedin.com/in/jincymarythomas/)]
+* **Joshua Quartey** – [[LinkedIn](https://www.linkedin.com/in/joshua-quart/)]
+* **Megha Radhakrishnan** – [[LinkedIn](https://www.linkedin.com/in/megha-rs/)]
+* **Deepika Gollamandala** – [[LinkedIn](https://www.linkedin.com/in/deepika-gollamandala-248166270/)]
 
 ---
